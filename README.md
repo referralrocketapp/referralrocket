@@ -8,7 +8,7 @@ Referral Rocket is a referral and affiliate software. Create, manage and track r
 Install the component using NPM:
 
 ```bash
-npm install referral-rocket-demo
+npm install @referralrocketapp/referral-rocket
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ Import the `Campaign` component and pass your `campaignId` as a prop:
 
 ```js
 import React from "react";
-import Campaign from "referral-rocket-demo";
+import Campaign from "@referralrocketapp/referral-rocket";
 
 const App = () => {
   return (
